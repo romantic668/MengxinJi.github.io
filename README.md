@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+# Mengxin Ji
+## PhD student at Resource Economics, UC Davis
+### STA 141B
 
 You can use the [editor on GitHub](https://github.com/MengxinJi/MengxinJi.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
