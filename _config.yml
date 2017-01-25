@@ -27,9 +27,9 @@ FB:
   comments :
     provider : mengxin
     duoshuo:
-        short_name : mengxin
+        short_name : 
     disqus :
-        short_name : mengxin
+        short_name : 
     # facebook :
     #   appid : 123
     #   num_posts: 5
