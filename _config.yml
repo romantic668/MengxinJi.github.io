@@ -25,11 +25,11 @@ markdown: kramdown
 
 FB:
   comments :
-    provider : duoshuo
+    provider : mengxin
     duoshuo:
-        short_name : luoyan35714
+        short_name : mengxin
     disqus :
-        short_name : freudkang
+        short_name : mengxin
     # facebook :
     #   appid : 123
     #   num_posts: 5
