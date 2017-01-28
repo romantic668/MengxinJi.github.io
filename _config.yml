@@ -1,38 +1,9 @@
-# Site settings
-name: Mengxin
-email: mengxin.ji1992@gmail.com
-author: Freud Kang
-url: https://mengxinji.github.io/
-resume_site: http://www.hifreud.com/Resume.io/
-github: https://github.com/luoyan35714/
-baseurl: "/MengxinJi.github.io"
-description: PhD student in Resouce Economics, UC Davis
-meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
-motto: It's our wits that make us men.
-banner: 学而不思则罔，思而不学则殆。
+name: Solar Theme
+url: http://example.org
+description: A stylish blog using the Solarized color palette
 
-#permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
 paginate: 10
 
+gems: [jekyll-paginate]
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
-
-github_username: luoyan35714
-highlighter: Pygments
-
-# Build settings
-markdown: kramdown
-
-FB:
-  comments :
-    provider : mengxin
-    duoshuo:
-        short_name : 
-    disqus :
-        short_name : 
-    # facebook :
-    #   appid : 123
-    #   num_posts: 5
-    #   width: 580
-    #   colorscheme: light
-theme: jekyll-theme-minimal
