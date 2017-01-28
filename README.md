@@ -1,44 +1,30 @@
-Solar Theme for Jekyll
-======================
+# Nangka - theme for jekyll
+Just simple theme for your jekyll blog, based on default Jekyll theme.
 
-A stylish theme for [Jekyll](http://jekyllrb.com/) blogs, based on the [Solarized](http://ethanschoonover.com/solarized) color palette.
+### Feature
 
-![Screenshot](http://i.imgur.com/UnnRhkt.png)
+- [x] **Google Analytics**
+- [x] **Jekyll Search on Archive Page**
+- [x] **Pagination**
+- [x] **404 Error Page**
+- [x] **SEO** Gems: *[jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap), [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag), [jekyll-feed](https://github.com/jekyll/jekyll-feed)*
+- [x] **Disqus Comments**
+- [x] **Ads**
+- [x] **Share Button**
 
+### [View Demo](http://rmsubekti.github.io/nangka)
 
-Features
--------
+### Run this theme on your local machine
+To serve this jekyll theme make sure your computer meets the [following requirements](https://jekyllrb.com/docs/installation/#requirements), then run this command.
 
-* **Two color schemes** — One for Solarized Dark and one for Solarized Light. Just swap the reference to the `colors-dark.css` file with `colors-light.css` if you don't like light-on-dark.
-* **Linkblog support** — Solar will turn your post title into an external link if you add `external-url: http://example.org` to a post's YAML front matter.
-* **Responsive Design** — Solarized adapts to fit any screen size.
+```
+git clone git@github.com:rmsubekti/nangka.git
+cd nangka
+bundle install
+bundle exec jekyll s
+```
 
+You can change the site configuration in the [_config.yml](https://github.com/rmsubekti/nangka/blob/master/_config.yml) file.
 
-Installation
---------------
-
-There are two ways to use Solar. You can either clone-and-go, copying the repository and tweaking the contents to taste, or you can cherry-pick the files you want and integrate them into an existing Jekyll instance. 
-
-If you're starting a new blog, you want to clone-and-go. Just `git clone https://github.com/redwallhp/solar-theme-jekyll.git`, make any changes you want to the template, pages or `_config.yml` and start blogging with Jekyll. Easy.
-
-If you're wanting to replace the theme of an existing Jekyll blog, either option should work. If you want to replace files individually, the files and directories you want to make sure to copy are:
-
-1. `_layouts`
-2. `archives`
-3. `assets`
-4. `feed.xml`
-5. `index.xml`
-
-You'll also want to compare Solar's `_config.yml` with your own, making any appropriate changes.
-
-
-Demo
--------
-
-You can see a demo of Solar [right here on GitHub Pages.](http://mattvh.github.io/solar-theme-jekyll/)
-
-
-License
----------
-
-GPLv2 or higher
+License : [MIT](https://github.com/rmsubekti/nangka/blob/master/LICENSE.md)
+Feel free to fork, change, modify and re-use it.
