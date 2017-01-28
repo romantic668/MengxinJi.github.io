@@ -8,5 +8,5 @@ Programming Language: R, Python (e.g. numpy, scipy, pySpark, scikit-learn, Panda
 Applied Machine Learning: Supervised/unsupervised Learning, Deep Learning.
 Statistics and Econometrics: Time Series Analysis, Generalized Linear Model, Causal Inference.
 
-<img src="/images/mengxin.png" class="right" />
+<img src="/images/mengxin.png" class="right" width="200" height="200" />
 **Mengxin Ji** 
