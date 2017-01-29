@@ -1,7 +1,7 @@
 # Site settings
 title: Mengxin Ji
 email: mengxin.ji1992@gmail.com
-description: >  PhD student in Resource Economics, UC Davis.
+description: PhD student in Resource Economics, UC Davis.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 google_analytics: #your GA unique id, e.g. UA-xxxxxxxx-x
