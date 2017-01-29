@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Archive
+title: Project
 scripts: [search.js]
-permalink: /archive
+permalink: /project
 ---
 <div class="archive-header">
     <h2>Archives</h2>
