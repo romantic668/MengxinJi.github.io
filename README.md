@@ -1,30 +1,15 @@
-# Nangka - theme for jekyll
-Just simple theme for your jekyll blog, based on default Jekyll theme.
+# Much-Worse jekyll theme
 
-### Feature
+This is a modified version of [Steve Miller's NGVM theme](http://jekyllthemes.org/themes/svm-ngvb/). Since this work is a derivative of Prof. Miller's, therefore it is only fair that I honour his self-deprecating spirit and name this **much-worse**. I prefer large seriff fonts and minimal coloring and styling. Apart form the typography, color scheme and layout,
+this theme has two useful changes:
 
-- [x] **Google Analytics**
-- [x] **Jekyll Search on Archive Page**
-- [x] **Pagination**
-- [x] **404 Error Page**
-- [x] **SEO** Gems: *[jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap), [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag), [jekyll-feed](https://github.com/jekyll/jekyll-feed)*
-- [x] **Disqus Comments**
-- [x] **Ads**
-- [x] **Share Button**
+- It allows you to maintain your website as a subdirectory on your university of company domain (e.g. http://university.edu/department/people/your-website). Most Jekyll blogs are
+designed to be hosted at custom domain names.
 
-### [View Demo](http://rmsubekti.github.io/nangka)
+- Most jekyll themes are blog-centric, or single page websites. This theme lets you create multi-page website with a blog if you want.
 
-### Run this theme on your local machine
-To serve this jekyll theme make sure your computer meets the [following requirements](https://jekyllrb.com/docs/installation/#requirements), then run this command.
+Both the above are not seminal achievements in science, but they are useful. This theme also supports site analytics including [Statcounter](http://statcounter.com) and major comment providers for blogs.
 
-```
-git clone git@github.com:rmsubekti/nangka.git
-cd nangka
-bundle install
-bundle exec jekyll s
-```
+See it in action [here](http://people.csail.mit.edu/gchauras).
 
-You can change the site configuration in the [_config.yml](https://github.com/rmsubekti/nangka/blob/master/_config.yml) file.
-
-License : [MIT](https://github.com/rmsubekti/nangka/blob/master/LICENSE.md)
-Feel free to fork, change, modify and re-use it.
+Feel free to send me pull requests with better responsive performance or cleaner HTML/CSS.

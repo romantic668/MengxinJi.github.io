@@ -1,50 +1,57 @@
-# Site settings
 title: Mengxin Ji
-email: mengxin.ji1992@gmail.com
-description: PhD student in Resource Economics, UC Davis.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-google_analytics: #your GA unique id, e.g. UA-xxxxxxxx-x
-disqus_username: #Your disqus_username to add comments on the post
+description: PhD student in Resource Economics, UC Davis
+sourcecode: "https://github.com/gchauras/much-worse-jekyll-theme"
 
-# Optional settings
-github: #your github username
-linkedin: #linkedin username
-twitter:
-  username: #twitter username here
-facebook:
-  app_id: 1234
-  publisher: 1234
-google_plus: #gplus id or username
-ads: true # add your ad code in _includes/ad.html file
+permalink: blog/:year/:month/:day/:title
+exclude: ["Makefile", "README.md"]
 
+url: "https://mengxinji.github.io"     # the base hostname & protocol for your site
+baseurl: "/much-worse-jekyll-theme"                   # the subpath of your site, e.g. /blog
+
+author:
+    name:
+    facebook:
+    scholar:
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 
-sass:
-    style: compressed
+# Settings for analytics helper
+# Set 'provider' to the analytics provider you want to use.
+# Set 'provider' to false to turn analytics off globally.
+#
+analytics:
+    provider:
+    statcounter:
+        sc_project  :
+        sc_security :
+        sc_invisible: 1
+        sc_text     : 2
+    google:
+        tracking_id: ''
+    getclicky:
+      site_id:
+    mixpanel:
+        token: ''
+    piwik:
+        baseURL: '' # Piwik installation address (without protocol)
+        idsite: ''  # the id of the site on Piwik
 
-gems:
-  - jekyll-redirect-from
-  - jekyll-mentions
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jemoji
-
-defaults:
-    - {scope: {type: posts}, values: {layout: post, permalink : '/:year/:title'}}
-
-include:
-  - _pages
-
-exclude:
-  - CNAME
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-
-paginate: 5
-paginate_path: 'p/:num'
+# Settings for comments helper
+# Set 'provider' to the comment provider you want to use.
+# Set 'provider' to false to turn commenting off globally.
+#
+comments:
+    provider:
+    disqus:
+      short_name:
+    livefyre:
+      site_id:
+    intensedebate:
+      account:
+    facebook:
+      appid:
+      num_posts: 5
+      width: 580
+      colorscheme: light

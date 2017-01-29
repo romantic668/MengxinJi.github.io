@@ -1,9 +1,11 @@
-  {% if page.url != '/404.html' %}{% include ad.html %}{% endif %}
-</div>{% endif %}
 <footer class="site-footer">
-  <div class="wrapper">
-      <div class="copy">
-          {{ site.time | date: '%Y' }} &copy; {{ site.title }}
-      </div>
-  </div>
+    {{ site.description }}<br />
+
+    Using <a href="http://jekyllrb.com/">Jekyll</a>
+    {% if site.sourcecode %}
+     :: <a href="{{ site.sourcecode }}">Website source</a>
+    {% endif %}
+    {% if site.analytics.provider and page.analytics != false %}
+     :: Analytics by {{ site.analytics.provider }}
+    {% endif %}
 </footer>
