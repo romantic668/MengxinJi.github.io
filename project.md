@@ -3,10 +3,19 @@ layout: page
 title: Project
 permalink: /project/
 ---
-Pattern Identification for Larval Zebrafish Images Based on Machine Learning Method Using Spark of Python Interface                                                                         May 2016– Aug 2016
-• Studied compact spatial and temporal patterns with time-varying images containing the activity of hundreds of thousands of neurons using MapReduce in pySpark to handle with large dataset;
-• Applied exploratory analysis of neuroscience data, specifically performed principal component analysis and feature-based aggregation, and found global patterns across all 240 seconds of time series;
-• Applied machine learning algorithms, such as Random Forest, Tree Boosting, SVM, to classify the moving patterns.
 
+Here is the much awaited blog.
 
-{% include embedpdf.html source="http://nitens.org/img/cvtex/cv_template_xetex_caslon.pdf" width=100 height=800 %}
+<ul class="listing">
+{% for post in site.posts %}
+  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+  {% if year != y %}
+    {% assign year = y %}
+    <li class="listing-seperator">{{ y }}</li>
+  {% endif %}
+  <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
