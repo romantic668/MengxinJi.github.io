@@ -6,7 +6,7 @@ permalink: /
 
 {% include image.html url="images/photo.jpg" caption="" width="200" align="right" %}
 
-I am a third year Ph.D. student majored in Resource Economics and second year master student in Statistics. My research interests focus on machine learning method (both classical statistical learning and deep learning) and its application to Economics, especially for energy efficiency, and heterogeneous causal inference.
+I am a third year Ph.D. student majoring in Resource Economics and second year master student in Statistics. My research interests focus on machine learning method (both classical statistical learning and deep learning) and its application to Economics, especially for energy efficiency, and heterogeneous causal inference.
 
 My skill includes:
 
