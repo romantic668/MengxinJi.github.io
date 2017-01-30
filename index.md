@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 
-{% include image.html url="images/photo.jpg" caption="" width="48" align="right" %}
+{% include image.html url="images/photo.jpg" caption="" width="100" align="right" %}
 
 I am a third year Ph.D. student majored in Resource Economics and second year master student in Statistics. My research interests focus on machine learning method (both classical statistical learning and deep learning) and its application to Economics, especially for energy efficiency. My skill includes:
 Programming Language: R, Python (e.g. numpy, scipy, pySpark, scikit-learn, Panda), Stata.
