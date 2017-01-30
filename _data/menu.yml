@@ -1,11 +1,11 @@
-- title: "Research"
-  href: "/research/"
-
 - title: "Project"
   href: "/project/"
 
 - title: "Experience"
   href: "/experience/"
+
+- title: "Publication"
+  href: "/publication/"
 
 - title: "Submenu"
   subcategories:
