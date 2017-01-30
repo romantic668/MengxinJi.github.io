@@ -1,6 +1,6 @@
-title: Geeky corner
-description: Much-Worse Jekyll theme for academic page and blog
-sourcecode: "https://github.com/gchauras/much-worse-jekyll-theme"
+title: Mengxin Ji
+description: PhD student in Resource Economics, UC Davis
+sourcecode: "https://mengxinji.github.io"
 
 permalink: blog/:year/:month/:day/:title
 exclude: ["Makefile", "README.md"]
