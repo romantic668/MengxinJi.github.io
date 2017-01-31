@@ -5,9 +5,9 @@ description: "Machine Learning"
 categories: ["PySpark", "Machine Learning", "MapReduce"]
 location: "UC Davis"
 ---
-{% include image.html url="images/pca.png" caption="Neurons of Larval Zebrafish" width="200" align="right" %}
+{% include image.html url="_posts/pca.png" caption="Neurons of Larval Zebrafish" width="200" align="right" %}
 
-Pattern Identification for Larval Zebrafish Images Based on Machine Learning Method Using Spark of Python Interface\\
+Pattern Identification for Larval Zebrafish Images Based on Machine Learning Method Using Spark of Python Interface
 
 Studied compact spatial and temporal patterns with time-varying images containing the activity of hundreds of thousands of neurons using MapReduce in pySpark to handle with large dataset;
 
