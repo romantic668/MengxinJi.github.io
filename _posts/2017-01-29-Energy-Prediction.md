@@ -6,7 +6,7 @@ categories: ["Energy", "Prediction", "Machine Learning"]
 location: "UC Davis"
 ---
 
-{% include image.html url="images/energy.jpg" caption="Energy Output" width="200" align="right" %}
+{% include image.html url="blog/2017/01/29/images/energy.jpg" caption="Energy Output" width="200" align="right" %}
 
 Energy Prediction of Peaking Power Plant in California 
 
