@@ -6,7 +6,7 @@ categories: ["Energy", "Prediction", "Machine Learning"]
 location: "UC Davis"
 ---
 
-{% include image.html url="https://mengxinji.github.io/MengxinJi.github.io/images/energy.jpg" caption="Energy Output" width="200" align="right" %}
+{% include image.html url="https://mengxinji.github.io/MengxinJi.github.io/images/energy.png" caption="Energy Output" width="200" align="right" %}
 
 Energy Prediction of Peaking Power Plant in California 
 
