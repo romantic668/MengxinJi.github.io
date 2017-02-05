@@ -1,6 +1,6 @@
 title: Mengxin Ji
 description: PhD student in Resource Economics, UC Davis
-sourcecode: "https://mengxinji.github.iosdf"
+sourcecode: "https://github.com/mengxinji"
 
 permalink: blog/:year/:month/:day/:title
 exclude: ["Makefile", "README.md"]
