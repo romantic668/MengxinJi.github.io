@@ -18,6 +18,6 @@ Statistics and Econometrics: Time Series Analysis, Generalized Linear Model, Cau
 
 ## Contact
 
-Email: [mengxin.ji1992@gmail.com]<a href="mailto:mengxin.ji1992@gmail.com">Email Me</a> 
+Email: <a href="mailto:mji@ucdavis.edu">mji@ucdavis.edu</a> 
 
 
