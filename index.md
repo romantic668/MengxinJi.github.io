@@ -10,7 +10,7 @@ I am a third year Ph.D. student majoring in Resource Economics and second year m
 
 My skill includes:
 
-Programming Language: R, Python (e.g. numpy, scipy, pySpark, scikit-learn, Panda), Stata, SQL.
+Programming Language: R, Python (e.g. numpy, scipy, pySpark, scikit-learn, Pandas), Stata, SQL.
 
 Applied Machine Learning: Supervised/unsupervised Learning, Deep Learning.
 
