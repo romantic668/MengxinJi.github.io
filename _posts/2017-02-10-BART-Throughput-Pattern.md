@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ""
-description: "BART Throughput Pattern"
+title: "BART Throughput Pattern"
+description: "prediction"
 categories: ["Throughput", "Prediction", "Machine Learning"]
 location: "UC Berkeley"
 ---
